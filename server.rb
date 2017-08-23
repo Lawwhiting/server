@@ -1,7 +1,7 @@
 require 'sinatra'
 
 get '/' do
-  (1+1).to_s
+  "<strong>Hello</strong>"
 end
 
 get '/sinatra' do
