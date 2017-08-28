@@ -1,7 +1,7 @@
 require 'sinatra'
 
 get '/' do
-  "<strong>Hello</strong>"
+  File.open(File.join("public", "hello.html"))
 end
 
 get '/sinatra' do
